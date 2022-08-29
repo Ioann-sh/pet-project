@@ -1,0 +1,99 @@
+.Navbar {
+  gird-area: navbar;
+  background-color: #CCA43B;
+  padding: 20px;
+  background-size: auto;
+}
+
+.Navbar li {
+  list-style-type: none;
+}
+
+.Navbar ul {
+  padding-left: 0px;
+  margin-left: 0px;
+}
+
+.Navbar hr {
+  margin: 10px 0;
+  padding: 0;
+  height: 0;
+  border: none;
+  border-top: 1px dashed #363636;
+}
+
+//profile
+.Navbar_item_profile {
+  color: #363636;
+  text-decoration: none;
+  display: flex;
+  padding: 1px;
+  font-size: 1.2em;
+}
+
+.Navbar_item_profile.active {
+  color: #363636;
+}
+
+.Navbar_item_profile:hover {
+  background: #D6B662;
+  color: #363636;
+  border-radius: 4px;
+}
+
+//news
+.Navbar_item_news {
+  color: #363636;
+  text-decoration: none;
+  display: flex;
+  padding: 1px;
+  font-size: 1.2em;
+}
+
+.Navbar_item_news.active {
+  color: #363636;
+}
+
+.Navbar_item_news:hover {
+  background: #D6B662;
+  color: #363636;
+  border-radius: 4px;
+}
+
+//messages
+.Navbar_item_dialogs {
+  color: #363636;
+  text-decoration: none;
+  display: flex;
+  padding: 1px;
+  font-size: 1.2em;
+}
+
+.Navbar_item_dialogs.active {
+  color: #363636;
+}
+
+.Navbar_item_dialogs:hover {
+  background: #D6B662;
+  color: #363636;
+  border-radius: 4px;
+}
+
+//settings
+.Navbar_item_settings {
+  color: #363636;
+  text-decoration: none;
+  display: flex;
+  padding: 1px;
+  font-size: 1.2em;
+}
+
+.Navbar_item_settings.active {
+  color: #363636;
+}
+
+.Navbar_item_settings:hover {
+  background: #D6B662;
+  color: #363636;
+  border-radius: 4px;
+}

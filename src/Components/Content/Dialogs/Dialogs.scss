@@ -1,0 +1,27 @@
+
+.dialogs {
+  display: grid;
+  grid-template-columns: 2fr 10fr;
+
+}
+
+.dialogs ul {
+  padding-left: 0px;
+  margin-left: 0px;
+}
+
+.dialogs li {
+  list-style-type: none;
+}
+
+.dialogs_users {
+  padding: 15px;
+}
+
+.dialogs_users .dialogs_users_item {
+  padding: 1px;
+}
+
+.dialogs_messages {
+  padding: 15px;
+}
