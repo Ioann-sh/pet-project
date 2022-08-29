@@ -13,7 +13,7 @@ function App({usersData, messagesData, postsData}) {
         <div className="App">
             <Header/>
             <BrowserRouter>
-                <Navbar   />
+                <Navbar/>
                 <Content usersData={usersData} messagesData={messagesData} postsData={postsData}/>
             </BrowserRouter>
         </div>
