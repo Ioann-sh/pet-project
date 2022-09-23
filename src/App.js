@@ -4,18 +4,16 @@ import React from "react";
 import Header from "./Components/Header/Header";
 import Navbar from "./Components/Navbar/Navbar";
 import Content from "./Components/Content/Content";
-import {BrowserRouter} from "react-router-dom";
-
-function App({usersData, messagesData, postsData}) {
 
 
+    function App({appState, addPost}) {
     return (
         <div className="App">
             <Header/>
-            <BrowserRouter>
+
                 <Navbar/>
-                <Content usersData={usersData} messagesData={messagesData} postsData={postsData}/>
-            </BrowserRouter>
+                <Content profilePageData={appState.profilePageData} addPost={addPost} dialogsPageData={appState.dialogsPageData}/>
+
         </div>
     );
 }

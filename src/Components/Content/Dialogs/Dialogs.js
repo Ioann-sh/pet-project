@@ -1,18 +1,17 @@
 import React from 'react';
 import './Dialogs.scss';
-import MessageItem from "./MessageItem/MessageItem";
-import UserItem from "./UserItem/UserItem";
+import MessageItem from "./DialogsItem/MessageItem/MessageItem";
+import UserItem from "./DialogsItem/UserItem/UserItem";
 
 const Dialogs = ({usersData, messagesData}) => {
 
     let messagesElements = messagesData.map(
-        (message, i) => <li  key={i}><MessageItem message={message.message}/></li>
+        (message, i) => <li key={i}><MessageItem message={message.message}/></li>
     )
 
     let usersElements = usersData.map(
-        (user, i) => <li key={i} ><UserItem name={user.name} id={user.id}/></li>
+        (user, i) => <li key={i}><UserItem name={user.name} id={user.id}/></li>
     )
-
     return (<>
             <h1>Messages</h1>
             <div className='dialogs'>
